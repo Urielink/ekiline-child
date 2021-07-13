@@ -1,0 +1,19 @@
+/*
+ Theme Name: Ekiline Child
+ Theme URI: http://www.ekiline.com/
+ Author: Uri Lazcano (Urielink)
+ Author URI: https://profiles.wordpress.org/urielink/
+ Description: Ekiline child theme, inherits functions and styles. Ready to create a new design. Documentation: http://www.ekiline.com
+ Template: ekiline
+ Version: 1.2
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, microformats, theme-options, translation-ready, blog, e-commerce, portfolio
+ Text Domain: ekiline
+*/
+
+/**
+ * UTILIDADES:
+ * Mostrar grid en editor.
+ * .wp-block{border:1px dotted #ccc;padding:.25em;}
+ */
