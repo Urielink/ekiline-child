@@ -38,8 +38,8 @@ Ekiline includes support for Woocommerce.
 
 == Changelog ==
 
-= 1.2 - March ##, 2021 =
-* SEO improves add title reference in read more buttons, declare size in navbar icon.
+= 1.3 - July 20, 2021 =
+* Verified compatibility with wordpress 5.8
 
 = 1.1 - March 02, 2021 =
 * New release
