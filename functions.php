@@ -21,15 +21,18 @@ add_action( 'wp_enqueue_scripts', 'ekiline_child_scripts', 1 );
 
 /**
  * UTILIDADES:
- * Ver estilos durante la edición.
+ * Ver estilos durante la edición, manteniendo el orden heredado de padre.
  *
  * @link https://developer.wordpress.org/themes/advanced-topics/child-themes/
- * add_action( 'after_setup_theme', 'ekiline_child_block_editor_setup', 100 );
  */
 function ekiline_child_block_editor_setup() {
 	add_theme_support( 'editor-styles' );
-	add_editor_style( [ 'style.css' ] );
+	$block_styles = array(
+		'style.css',
+	);
+	add_editor_style( $block_styles );
 }
+add_action( 'after_setup_theme', 'ekiline_child_block_editor_setup', 100 );
 
 /**
  * Inicializar nueva combinacion de parametros en customizer.
