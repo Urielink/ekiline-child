@@ -14,7 +14,7 @@
  * @link https://developer.wordpress.org/themes/advanced-topics/child-themes/#3-enqueue-stylesheet
  */
 function ekiline_child_scripts() {
-	wp_enqueue_style( 'bootstrap-5', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '5', 'all' );
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '5', 'all' );
 	wp_enqueue_style( 'parent-ekiline', get_template_directory_uri() . '/style.css', array(), '5', 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'ekiline_child_scripts', 1 );
