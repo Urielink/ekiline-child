@@ -1,7 +1,7 @@
 === Ekiline Child===
 Contributors: urielink
 Requires at least: 5.0
-Tested up to: 5.9
+Tested up to: 6.0.2
 Requires PHP: 7.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
@@ -37,6 +37,9 @@ Ekiline includes support for Infinite Scroll in Jetpack.
 Ekiline includes support for Woocommerce.
 
 == Changelog ==
+
+= 1.3.3 - Sep 30, 2022 =
+* Verified compatibility with wordpress 6.0.2
 
 = 1.3.2 - Feb 11, 2022 =
 * Verified compatibility with wordpress 5.9
