@@ -14,8 +14,8 @@
  * @link https://developer.wordpress.org/themes/advanced-topics/child-themes/#3-enqueue-stylesheet
  */
 function ekiline_child_scripts() {
-	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '5', 'all' );
-	wp_enqueue_style( 'parent-ekiline', get_template_directory_uri() . '/style.css', array(), '5', 'all' );
+	wp_enqueue_style( 'parent-ekiline', get_template_directory_uri() . '/style.css', array('bootstrap-style'), '5', 'all' );
+	wp_enqueue_style( 'ekiline-style', get_stylesheet_uri(), array('parent-ekiline'), '5', 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'ekiline_child_scripts', 1 );
 
@@ -44,4 +44,3 @@ function ekiline_child_theme_mods() {
 	set_theme_mod( 'ekiline_inversemenu', true );
 }
 add_action( 'after_switch_theme', 'ekiline_child_theme_mods' );
-

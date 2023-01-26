@@ -1,7 +1,7 @@
 === Ekiline Child===
 Contributors: urielink
 Requires at least: 5.0
-Tested up to: 6.0.2
+Tested up to: 6.1.1
 Requires PHP: 7.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
