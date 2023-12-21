@@ -32,7 +32,7 @@ function ekiline_child_block_editor_setup() {
 	);
 	add_editor_style( $block_styles );
 }
-add_action( 'after_setup_theme', 'ekiline_child_block_editor_setup', 100 );
+add_action( 'after_setup_theme', 'ekiline_child_block_editor_setup', 110 );
 
 /**
  * Inicializar nueva combinacion de parametros en customizer.
